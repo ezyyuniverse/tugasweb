@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/w3.css">
+    <link rel="shortcut icon" href="logomini.jpg" type="image/x-icon">
+<script>
+    function openKota(namaKota) {
+        var i;
+        var x = document.getElementsByClassName("Kota");
+        for (i = 0; i<x.length; i++){
+            x[i].style.display = "none";
+        }
+document.getElementById(namaKota).style.display = "block";
+    }
+</script>
+    <title>The Weeknd</title>
+    <style>
+        body{
+            background-size: 100%;
+            width: 100vw;
+        }
+        p1{
+            color:white;
+        }
+        p2{
+            color: white;
+        }
+        p3{
+            color: white;
+        }
+        h4{
+            color: white;
+        }
+    </style>
+</head>
+
+<body style="background-image: url('stars.jpg');">
+    <div class="w3-responsive">
+        <center>
+            <img src="wallpaper3.jpg" width="100%" height="200%">
+        </center>
+    </div>
+
+    <div class="w3-bar w3-black w3-card-4">
+        <button class="w3-bar-item w3-button" onclick="openKota('Home')">Home</button>
+        <button class="w3-bar-item w3-button" onclick="openKota('Facts')">Facts</button>
+        <div class="w3-dropdown-hover">
+            <button class="w3-button">Album</button>
+            <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                <button class="w3-bar-item w3-button" onclick="openKota('Trilogy')">Trilogy (2012)</button>
+                <button class="w3-bar-item w3-button" onclick="openKota('Kiss Land')">Kiss Land (2013)</button>
+                <button class="w3-bar-item w3-button" onclick="openKota('Beauty Behind the Madness')">Beauty Behind the Madness (2015)</button>
+                <button class="w3-bar-item w3-button" onclick="openKota('Starboy')">Starboy (2016)</button>
+                <button class="w3-bar-item w3-button" onclick="openKota('After Hours')">After Hours (2020)</button>
+                <button class="w3-bar-item w3-button" onclick="openKota('Dawn FM')">Dawn FM (2022)</button>
+            </div>
+        </div>
+        <button class="w3-bar-item w3-button" onclick="openKota('Profile')">Profile</button>
+    </div>
+
+<div id="Trilogy" class="w3-responsive kota w3-animate-opacity" style="display: none;">
+    <center>
+        <img src="trilogy.jpg" width="50%" height="50%">
+    </center>
+</div>
+
+<div id="Kiss Land" class="w3-responsive kota w3-animate-opacity" style="display: none;">
+    <center>
+        <img src="kiss land.jpg" width="50%" height="50%">
+    </center>
+</div>
+
+<div id="Beauty Behind the Madness" class="w3-responsive kota w3-animate-opacity" style="display: none;">
+    <center>
+        <img src="beauty.jpg" width="50%" height="50%">
+    </center>
+</div>
+
+<div id="Starboy" class="w3-responsive kota w3-animate-opacity" style="display: none;">
+    <center>
+        <img src="starboy.jpg" width="50%" height="50%">
+    </center>
+</div>
+
+<div id="After Hours" class="w3-responsive kota w3-animate-opacity" style="display: none;">
+    <center>
+        <img src="after hours.jpg" width="50%" height="50%">
+    </center>
+</div>
+
+<div id="Dawn FM" class="w3-responsive kota w3-animate-opacity" style="display: none;">
+    <center>
+        <img src="dawn.jpg" width="50%" height="50%">
+    </center>
+</div>
+
+<div id="Home" class="w3-responsive kota w3-animate-opacity" style="display: none;">
+    <center>
+        <img src="Wallpaper1.jpg" width="70%" height="50%">
+    <div class="text-box">
+        <p2>
+            The Weeknd took over pop music & culture on his own terms filtering R&B, Pop,& hip-hop through an ambitious widescreen lens. The multi-platinum 3X GRAMMY Award winner has emerged as one of the most successful & significant artists of the modern era. 2012's 3X platinum <b>Trilogy</b> collated 3 breakout mixtapes-House of Balloons, Thursday & Echoes of Silence—into his 1st chart-topping collection followed by his debut LP <b>Kiss Land</b> in 2013. Two years later, "Earned It (Fifty Shades of Grey)" won "Best R&B Performance" & received an Academy Award nod for "Best Original Song" & 4X Platinum <b>Beauty Behind The Madness</b> won a GRAMMY for "Best Urban Contemporary Album."
+        </p2>
+        <p2>
+            In 2018, <b>Starboy</b> won the same award, making him the 1st artist ever to win twice. His 6- track project My Dear Melancholy marked his 3rd consecutive #1 bow on the Billboard Top 200, & "Pray For Me” with Kendrick Lamar & Niels was featured in the trailer for the Academy Award winning Marvel film Black Panther. In 2020 the 80's-nostalgic track Blinding Lights became a worldwide sensation, igniting viral dance challenges across social media, peaking at #1 in 30+ countries & headlining Mercedes Benz EQC campaign. <b>After Hours</b> held the #1 spot on Billboard 200 for 4 consecutive weeks, marking his 4th #1 album & becoming the first to ever rank #1 on the Billboard 200, Hot 100, and Artist 100 simultaneously. After Hours is the #1 R&B streaming album of all time (followed by Starboy at #2).
+        </p2>
+    </div>
+    </center>
+</div>
+
+<div id="Facts" class="w3-responsive kota w3-animate-zoom w3-dark-red" style="display: none;">
+    <center>
+        <img src="facts.jpg" width="60%">
+        <div class="text-box">
+            <p1>The Music:
+
+                Genre: He blends R&B, pop, and electronic music, often with dark and atmospheric soundscapes.
+                Hits: Mega-hits include "Blinding Lights", "Can't Feel My Face", "Starboy", and "The Hills".
+                Critical Acclaim: He's won 8 Grammy Awards, 29 American Music Awards, and 24 Billboard Music Awards.
+            </p1>
+            <p1>    
+                The Artist:
+                
+                Real Name: Abel Makkonen Tesfaye, born in Toronto, Canada in 1990.
+                Early Success: Started anonymously uploading music to YouTube in 2010, leading to his initial mixtapes and rise to fame.
+                Evolution: His sound has evolved from dark and introspective to incorporating pop sensibilities while maintaining his signature style.
+            </p1>
+            <p1>   
+                The Influence:
+                
+                Impact: He's considered one of the most influential artists of his generation, inspiring countless singers and producers.
+                Collaborations: Worked with Daft Punk, Kendrick Lamar, Future, and many others.
+                Cultural Icon: Beyond music, he's become a fashion icon and cultural figure, often shrouded in mystery and intrigue.
+            </p1>
+            <p1>   
+                Bonus:
+                
+                He's released six studio albums, including the critically acclaimed "After Hours" and the recent "Dawn FM".
+                He's known for his distinctive falsetto vocals and high-energy live performances.
+                He's always pushing boundaries and experimenting with his sound, keeping fans engaged and excited for what's next.
+                I hope this gives you a good starting point for exploring The Weeknd's career and music!</p>
+            </p1>    
+    </center>
+</div>
+
+<div id="weapon" class="w3-responsive kota w3-animate-top w3-black" style="display: none;">
+    <center>
+        <img src="weapon.jpg" width="100%" height="720">
+    </center>
+</div>
+
+<div id="rank" class="w3-responsive kota w3-animate-bottom w3-black" style="display: none;">
+    <center>
+        <img src="rank.jpg" width="100%" height="720">
+<div class="text-box">
+    <p>Layaknya game kompetitif lain, Valorant juga punya sistem rank list atau tier untuk para pemainnya..</p>
+    </center>
+</div>
+
+<div id="map" class="w3-responsive kota w3-animate-top w3-black" style="display: none;">
+<center>
+    <img src="icebox.jpg" width="100%" height="720">
+    <img src="icebox.jpg" width="100%" height="720">
+    <img src="icebox.jpg" width="100%" height="720">
+</center>
+</div>
+
+<div id="valorantchampions" class="w3-responsive kota w3-animate-top" style="display: none;">
+    <center>
+        <img src="valorant champions.jpg" width="100%" height="720">
+    </center>
+</div>
+
+<div id="valorant1" class="w3-responsive kota w3-animate-top" style="display: none;">
+    <center>
+        <img src="valorant1.jpg" width="100%" height="720">
+    </center>
+</div>
+
+<div id="valorant2" class="w3-responsive kota w3-animate-top" style="display: none;">
+    <center>
+        <img src="valorant2.jpg" width="100%" height="720">
+    </center>
+</div>
+
+<div id="Profile" class="w3-responsive kota w3-animate-opacity" style="display: none;">
+    <center>
+        <h4><b>Profile</b></h4>
+        <img src="ezy.jpeg" width="30%">
+        <p3>Yan Ezra Rudolf Andaria (Ezy)</p3>
+        <p3>10123469</p3>
+        <p3>IF-10</p3>
+    </center>
+</div>
+
+</body>
+</html>
